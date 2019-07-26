@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mi primera web!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            margin-top: 70px;
+        }
+    </style>
+    <title>Calculadora Mister 2019</title>
 </head>
+
 <body>
-    <h1>HOLA MUNDO 2</h1>
-    <h2>Adioos mundoooossss</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center mb-5">CALCULADORA MISTER 2019</h1>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="text-center">Jugador</h2>
+            </div>
+            <div class="col-md-3">
+                <h2 class="text-center">Total gastado</h2>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center">Farel que le queda</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div id="moro" align="center">
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="moroGastado" align="center">
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="moroFarel" align="center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="datos.js"></script>
 </body>
+
 </html>
