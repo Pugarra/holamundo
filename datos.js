@@ -6,13 +6,6 @@ var moro = {
     fichaje2: 2300,
 };
 
-//Inserto en los DIV el contenido llamando a propiedades de objeto y a funciones
-
-
-
-document.getElementById("moro").innerHTML = moro.nombre;
-document.getElementById("moroGastado").innerHTML = fichajesmoro();
-document.getElementById("moroFarel").innerHTML = farel();
 
 //Creo la funcion que calcula la suma de dos propiedades de objeto
 
@@ -26,3 +19,11 @@ function farel() {
     return 50000 - fichajesmoro();
 };
 
+
+//Inserto en los DIV el contenido llamando a propiedades de objeto y a funciones
+
+
+
+document.getElementById("moro").innerHTML = moro.nombre;
+document.getElementById("moroGastado").innerHTML = fichajesmoro();
+document.getElementById("moroFarel").innerHTML = farel();
